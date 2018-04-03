@@ -42,6 +42,7 @@ Source of inspiration
 * https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap
 * http://www.xn--vjq503akpco3w.top/literature/awesome-free-deep-learning-papers.html
 
+domains:
 * https://github.com/kjw0612/awesome-deep-vision
 * https://github.com/L706077/DNN-Dialogue-System-Papers
 
