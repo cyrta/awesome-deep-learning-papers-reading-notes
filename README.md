@@ -35,6 +35,7 @@ Source of inspiration
 * http://www.arxiv-sanity.com/top
 * [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 * https://github.com/terryum/awesome-deep-learning-papers
+<!-- https://github.com/terryum/awesome-deep-learning-papers -->
  * [Deep Learning Papers Reading Roadmap](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap)
   , has been created and loved by many deep learning researchers
 * https://endymecy.github.io/awesome-deeplearning-resources/
