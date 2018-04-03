@@ -10,7 +10,6 @@ by [@**zamir\_ar**](https://twitter.com/zamir_ar) et al
 * Uses ConvLSTMs.
 * Creates different representations than feedforward nets. Possible smaller models with similar accuracy.
 
-#### 
 
 #### Abstract
 
