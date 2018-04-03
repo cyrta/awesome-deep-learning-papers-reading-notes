@@ -24,3 +24,5 @@
 
 ## Tools
 
+* [Benchmarks](benchmarks.md)
+
