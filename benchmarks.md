@@ -2,12 +2,16 @@
 # Benchmarks
 
 
+## Overview
+
 [Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis (2018)](
 https://spcl.inf.ethz.ch/Publications/.pdf/distdl-preprint.pdf)
 - GPUs	are	still	faster	than	CPUs	in	general
 - CPU	is	very	comparable	to	GPU	for	DNN	Training	workloads	if	
 appropriate	optimizations	are	exploited
 - KNL	beats	P100	for	one	case	but	P100	beats	KNL	for	most	cases
+
+[Efficient Processing of Deep Neural Networks:A Tutorial and Survey](https://arxiv.org/pdf/1703.09039.pdf)
 
 ## GPU
 
@@ -25,6 +29,11 @@ Coupled	with	Intel	Xeon	Phi	(Knights	Landing	or	KNL)	and	MC-DRAM,	the	landscape 
 	
 - [An In-depth Performance Characterization of CPU- and GPU-based DNN Training on Modern Architectures](mvapich.cse.ohio-state.edu/static/media/talks/slide/awan-mlhpc17.pdf)
 ([paper](https://dl.acm.org/citation.cfm?id=3146356))
+
+1) Convolutions account for themajority of time (up to 83% time) consumed in DNN training, 
+2) GPU-based training continues to deliver excellent performance (upto 18% better than KNL) across generations of GPU hardware andsoftware, and 
+3) Recent CPU-based optimizations like MKL-DNNand OpenMP-based thread parallelism leads to excellent speed-upsover under-optimized designs (up to 3.2X improvement for AlexNettraining).
+
   - Usually,	we	hear	CPUs	are	10x-100x slower	than GPUs?	[1-3]
     - https://dl.acm.org/citation.cfm?id=1993516
     - http://ieeexplore.ieee.org/abstract/document/5762730/
@@ -65,6 +74,20 @@ use Docker image from `hub.docker.com/u/intelpython/`
     
     or just
     `conda install  -y -q intelpython3_full=2018.0.1 python=3`
+   
+[introduction video](https://www.youtube.com/watch?v=rfg279VgtDY)
+
+List of packages: https://www.continuum.io/sites/default/files/AnacondaIntelFAQFINAL.pdf
+ - numpy, numba
+ - scikit, scikit-learn
+ - caffe, theano
+     https://www.intel.com/content/dam/www/public/us/en/documents/presentation/hpl-maidanov-seibert-python-sc-in-prod-env.pdf
+     
+use numba
+`@jit(nopython=True)`
+`@numba.jit(nogil=True)`
+`@numba.vectorize('float64(float64, gloat64)', target='parallel')`
+
 ----
 
 Intel Data Analytics Acceleration Library ([Intel DAAL](https://software.intel.com/en-us/blogs/daal))
