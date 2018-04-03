@@ -16,4 +16,7 @@
 ## Training
 
 * [Normalization](models_training/normalization/README.md)
+  * [Group Normalization](models_training/normalization/201803_group_normalization.md)
+
+
 * [Optimization](models_training/optimization/README.md)
