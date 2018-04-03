@@ -12,6 +12,12 @@
 <!-- * [types of models](models/README.md) -->
   * [Convolutional NN](models/cnn/README.md)
   * [Recursive NN](models/rnn/README.md)
+  * [Others](models/others/README.md)
+   * [Feedback Networks](models/others/201612_feedback_networks.md)
+
+
+
+
 
 ## Training
 
