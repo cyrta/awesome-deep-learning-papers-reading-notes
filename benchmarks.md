@@ -50,15 +50,21 @@ The [Intel Distribution for Python](https://software.intel.com/en-us/distributio
     -  Intel® Mesh Architecture
     ![](https://2.bp.blogspot.com/-JANAVdamHPA/WgvPqPUAUdI/AAAAAAAAEwA/0zOFhMRJtY8L64jcfyVtaixIGR6VdJR0QCLcBGAs/s640/supercomputing-3.png)
    
+https://software.intel.com/en-us/distribution-for-python/features
+![](https://software.intel.com/sites/default/files/managed/68/1e/Python2018-Math-Functions-Xeon.jpg)
+   https://software.intel.com/en-us/articles/intel-optimized-packages-for-the-intel-distribution-for-python
+   
    
 use Docker image from `hub.docker.com/u/intelpython/`
     - For the intelpython3_core Docker image, enter    
     
-    `docker run -it intelpython/intelpython3_core ().`
+    `docker run -it intelpython/intelpython3_core ()`
     - For Jupyter Notebooks*, enter: 
     
-    `docker run -p 8888:8888 intelpython/intelpython3_full jupyter notebook --ip='*' --port=8888 --no-browser.`
+    `docker run -p 8888:8888 intelpython/intelpython3_full jupyter notebook --ip='*' --port=8888 --no-browser`
     
+    or just
+    `conda install  -y -q intelpython3_full=2018.0.1 python=3`
 ----
 
 Intel Data Analytics Acceleration Library ([Intel DAAL](https://software.intel.com/en-us/blogs/daal))
