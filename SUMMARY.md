@@ -16,3 +16,4 @@
 ## Training
 
 * [Normalization](models_training/normalization/README.md)
+* [Optimization](models_training/optimization/README.md)
