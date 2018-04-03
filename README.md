@@ -1,4 +1,4 @@
-# My Awesome Book
+# Awesome Deep Learning Papers - Reading list
 
 This is a notebook of all research papers related to deep learning & machine learning.
 
