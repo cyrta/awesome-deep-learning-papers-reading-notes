@@ -32,9 +32,15 @@ This is a notebook of all research papers related to deep learning & machine lea
 
 
 Source of inspiration
-
+* http://www.arxiv-sanity.com/top
+* [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 * https://github.com/terryum/awesome-deep-learning-papers
-  * [Deep Learning Papers Reading Roadmap](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap), has been created and loved by many deep learning researchers
+ * [Deep Learning Papers Reading Roadmap](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap)
+  , has been created and loved by many deep learning researchers
+
+* https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap
+* http://www.xn--vjq503akpco3w.top/literature/awesome-free-deep-learning-papers.html
+
 
 
 
